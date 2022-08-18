@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Это сайт базовых знаний HTML">
+    <meta name="keywords" content = "html, lesson">
+    <title>HTML lesson</title>
+</head>
+<body>
+    <img src="img/avatar.jpeg" alt="моё изображение" width="300">
+    
+    <h1>Сергей Абрамов</h1>
+    <p>Начальник отдела <strong>ЖКХ и МЖК,</strong> начинающий <strong>Frontend</strong> разработчик.</p>
+    <p>Я люблю <em>заниматься спортом, программировать, проводить время с семьёй.</em></p>
+    
+    <h3>Список социальных сетей:</h3>
+    <p>
+        <a target="_blank" href= "https://vk.com/ser_gik">VK</a> |
+        <a target="_blank" href="https://t.me/SergAbro">Telegram</a> |
+        <a target="_blank" href="#">Instagram</a>
+    </p>
+
+    <h3>Мои хобби:</h3>
+    <ol>
+        <li>Спорт</li>
+        <li>Гейминг</li>
+        <li>Семья</li>
+        <li>История</li>
+    </ol>
+    
+    <h3>Опыт работы:</h3>
+    <table>
+        <thead>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Лента</td>
+                <td>Продавест-логист</td>
+                <td>2013 - 2014</td>
+            </tr>
+            <tr>
+                <td>ParaFront</td>
+                <td>Верстальщик</td>
+                <td>2017 - 2019</td>
+            </tr>
+            <tr>
+                <td>УГХ АГП</td>
+                <td>Начальник отдела ЖКХ и МЖК</td>
+                <td>2014 - настоящее время</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Связаться со мной:</h3>
+    <form action="/">
+        <div>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+        </div>
+        <div>
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+        <div>
+            <label for="textarea"></label>
+            <textarea id="textarea" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <button type="submit">Отправить!</button>
+    </form>
+<script src="/jsLesson/main.js"></script>
+</body>
+</html>
